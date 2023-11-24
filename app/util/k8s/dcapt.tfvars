@@ -10,12 +10,12 @@
 # Unique name of your enterprise-scale test cluster.
 # This value can not be altered after the configuration has been applied.
 # ! REQUIRED !
-environment_name = "dcapt-product"
+environment_name = "dcapt-confluence-large"
 
 # Supported products: jira, confluence, bitbucket and bamboo.
 # e.g.: products = ["confluence"]
 # ! REQUIRED !
-products = ["product-to-deploy"]
+products = ["confluence"]
 
 # Default AWS region for DCAPT snapshots.
 region = "us-east-2"
@@ -166,7 +166,7 @@ jira_db_master_password = "Password1!"
 # If storing license as plain-text is not a concern for this environment, feel free to uncomment the following line and supply the license here.
 # Please make sure valid Confluence license is used without spaces and new line symbols.
 # ! REQUIRED !
-confluence_license = "confluence-license"
+confluence_license = "AAABuQ0ODAoPeNp1kl1v2jAUhu/zKyxNqjZtqfJRaGCyNAgpTclHS4AOiRsTToJX4zDHgfHv5+CidpMqX/m8R6+f8x5/uhMUJdUB2bfI8vpup3/TRX42Q47luIYvgEha8RGRgNuKadum7RkjqHNB962E/YoXrAGeA/qs+gjygUsQX1Z9FBwIa84GRkyoqnKi2oI/eypO7yyd1jKiOfD6A5FpcQGibp90jKxZvxFI0YCRK4zrpNmtQaTFvFad2LSNNwLdlYqScFrrynOLJL6hh6um2bHvrEQN36AxMHYEykAgE2VVIY9EAAp4STmAoLxE4/VUP0dySQ+gnVUMUt0DNSjDx7Pzj1yQQpp5tVE01xu4jHFP6i2O/aN/N+x683TpseVykErvxh54E9d5jnsd9/dg+/T1PnAfyfwpnCwmL3I4qxbTX9uHcV1V5QqvsGZ4zW122kNCdoD9NI6DqR8OIq1nkgjFggvCarikHI5wFI6yIDEju+c56rhGBuIAQinDn5Zj9papbYaJ1zWjtDPWVu129XL1yC9wumzE7lrWreW5rm08NiLfkhr+/zOvAZ0hP8hHAeF/of4CtcXdNTAsAhR080swSGyeb09LJxHaR3QdxjxfwwIUEhjGzeUktx3c5mgMtCIJNc/BGiQ=X02l5"
 
 # Number of Confluence application nodes
 # Note: For initial installation this value needs to be set to 1 and it can be changed only after Confluence is fully
