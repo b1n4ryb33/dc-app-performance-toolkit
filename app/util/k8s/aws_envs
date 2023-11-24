@@ -1,3 +1,0 @@
-# aws_envs file should contain AWS variables needed for authorization (without quotes)
-AWS_ACCESS_KEY_ID=AKIAVL5S742NBULOH4GT
-AWS_SECRET_ACCESS_KEY=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
